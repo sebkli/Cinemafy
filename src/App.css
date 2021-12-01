@@ -1,0 +1,72 @@
+body {
+  background: #131212;
+  color: #ffff;
+}
+
+.movie-app > .row {
+  overflow-x: auto;
+  flex-wrap: nowrap;
+}
+
+.movie {
+  max-width: 300px;
+  background: #000000;
+  margin: 10px;
+  box-shadow: 5px 5px 20px 5px #ffff;
+  position: relative;
+  overflow: hidden;
+}
+.movie-img {
+  max-width: 100%;
+}
+
+.movie-info {
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.movie-overview {
+  position: absolute;
+  background: #000000;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transform: translatey(100%);
+  margin: 5px;
+  padding: 5px;
+  transition: ease-in 0.5s;
+  max-height: 100%;
+  overflow: auto;
+}
+.movie-overview p {
+  font-size: 1.3rem;
+}
+
+.movie:hover .movie-overview {
+  transform: translatey(0%);
+}
+a {
+  text-decoration: none;
+  color: #ffff;
+}
+h1 {
+  color: #ffd700;
+  margin: 5px;
+  padding: 5px;
+}
+input {
+  background: #131212;
+  font-size: 2rem;
+  color: #ffd700;
+  height: 100%;
+  width: 100%;
+}
+
+.form-control {
+  background: #131212;
+  border: 1px #ffd700 solid;
+}
+
+::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
