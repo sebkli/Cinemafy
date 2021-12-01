@@ -15,6 +15,6 @@
 - [React JS]
 - [Bootstrap]
 
-<img src='public/images/popular.png'><br>
-<img src='public/images/search.png'><br>
-<img src='public/images/top.png'><br>
+<img src='public/popular.png'><br>
+<img src='public/search.png'><br>
+<img src='public/top.png'><br>
